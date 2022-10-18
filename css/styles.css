@@ -1,0 +1,24 @@
+/* Global Styles 
+------------------------------------*/
+:root {
+  --global-bg-color: #04112b;
+  --global-heading-color: #010b1f;
+  --global-accent-color: #dacbeb;
+  --global-text-color: #010b1f;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--global-text-color);
+  margin: 0;
+  padding: 0;
+}
