@@ -1,0 +1,56 @@
+/* Global Styles 
+------------------------------------*/
+:root {
+  --global-bg-color: #04112b;
+  --global-heading-color: #010b1f;
+  --global-accent-color: #dacbeb;
+  --global-text-color: #010b1f;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--global-text-color);
+  margin: 0;
+  padding: 0;
+  font-family: "Questrial", Sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", Sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: "PT Serif Caption", Sans-serif;
+}
+
+.content-wrap {
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
+}
